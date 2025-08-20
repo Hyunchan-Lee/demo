@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코웨이 정수기 렌탈</title>
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+  <link rel="stylesheet" href="./dist/output.css" />
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./js/App.js" type="module"></script>
+
+  <meta property="og:title" content="쿠쿠 냉온 얼음 정수기, 지금이 찬스!" />
+  <meta property="og:title" content="한정 수량, 역대급 할인으로 만나보세요" />
+  <meta property="og:image" content="https://imgur.com/a/hHgIwzX.png" />
+
+  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+</head>
+
+<body class="font-['pretendard']">
+  <div id="form-section"></div>
+  <main class="w-full max-w-[540px] mx-auto flex flex-col items-center justify-start">
+    <div id="session1"
+      class="w-full flex flex-col items-center justify-start p-[40px_20px_20px] bg-[#F3F4F6] text-center">
+      <div class="w-full flex flex-col items-center">
+        <span class="text-[32px] font-[700] leading-[1.3] tracking-tighter-[-0.64px] text-[#303E4A]">쿠쿠 냉온 얼음 정수기</span>
+        <span class="text-[#303E4A] text-[40px] font-[700] leading-[1.3] tracking-tighter-[-0.8px]">한정 할인 프로모션</span>
+      </div>
+      <div class="w-full flex flex-row justify-center items-center pt-[24px] gap-[4px]" data-aos="fade-up">
+        <span class="text-[16px] font-[400] leading-[1] tracking-tighter-[-0.8px] text-[#8F9BA5]">기존 렌탈료</span>
+        <span
+          class="text-[#8F9BA5] text-[16px] font-[400] tracking-[-0.8px] text-decoration: line-through">41,900원</span>
+      </div>
+      <div class="w-full flex flex-row justify-center items-center pt-[14px] gap-[8px]" data-aos="fade-up">
+        <div
+          class="flex p-[8px] justify-center items-center rounded-[99px] bg-[linear-gradient(270deg,#0093E3_0%,#07A8CB_100%)]">
+          <span class="text-[18px] font-[700] leading-[1] tracking-tighter-[-0.9px] text-[#FFF]">최대 58%</span>
+        </div>
+        <span class="text-[#0074F9] text-[20px] font-[600] tracking-tighter-[-0.4px]">17,700원</span>
+      </div>
+      <img class="min-w-[208px] min-h-[280px] p-[24px_56px_0px]" src="./assets/images/Product-Image.png"
+        alt="Product-Image" data-aos="fade-up" />
+
+      <!-- 그라데이션 + 버튼 + 상단 문구 -->
+      <div
+        class="fixed left-1/2 bottom-0 -translate-x-1/2 z-50 w-[min(100vw,540px)] h-[180px] max-[360px]:h-[132px] pointer-events-none">
+        <div class="relative w-full h-full overflow-hidden">
+          <!-- 상단 그라데이션 -->
+          <div
+            class="absolute left-0 w-full h-full bg-[linear-gradient(180deg,rgba(255,255,255,0)_0%,#fff_42.31%,#fff_100%)]">
+          </div>
+
+          <!-- 버튼 -->
+          <button id="button-apply" class="absolute left-[20px] bottom-[20px] w-[calc(100%-40px)] 
+         px-[12px] py-[18px] 
+         bg-[#3181F8] hover:bg-[#2563eb] active:bg-[#1d4ed8] 
+         rounded-[16px] shadow-lg 
+         flex justify-center items-center gap-[10px] 
+         pointer-events-auto transition-colors duration-200">
+            <span
+              class="text-[14px] font-[500] leading-[1] tracking-tighter-[-0.7px] text-[rgba(255,255,255,0.8)] line-through">
+              기존 렌탈료 41,900
+            </span>
+            <span class="text-[20px] font-[700] leading-[1] tracking-tighter-[-1px] text-white">
+              최대 58% 할인받기
+            </span>
+          </button>
+
+
+          <!-- 상단 문구 (버튼 기준 20px 위) -->
+          <div id="event-countdown"
+            class="absolute bottom-[88px] left-1/2 -translate-x-1/2 w-full flex items-center justify-center text-center text-[#1E2732] text-[16px] font-[500] leading-[16px] tracking-tighter-[-0.32px] pointer-events-none">
+            이벤트 종료까지 7일 남았어요
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="session2" class="flex h-[376px] p-[60px_16px] flex-col items-center gap-[24px] self-stretch bg-[#3181F8]">
+      <div class="flex flex-col justify-center" data-aos="fade-up">
+        <span class="text-[28px] font-[700] text-center leading-[1.5] tracking-tighter-[-0.56px] text-[#FFF]">8월 한 달, 기간
+          한정으로<br />최대 58% 할인해요</span>
+        <div class="w-full flex flex-row justify-center items-center pt-[12px] gap-[4px]">
+          <span class="text-[16px] font-[400] leading-[1] tracking-tighter-[-0.8px] text-[rgba(255,255,255,0.8)]">기존
+            렌탈료</span>
+          <span
+            class="text-[rgba(255,255,255,0.8)] text-[16px] font-[400] leading-[1] tracking-[-0.8px] text-decoration: line-through">41,900원</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-[12px] self-stretch">
+        <div data-aos="fade-up"
+          class="flex p-[20px_16px] flex-col items-start gap-[14px] flex-grow flex-shrink-0 basis-0 bg-[#FFF] rounded-[12px] border border-[#E6E8EB]">
+          <span class="text-[#788192] text-[14px] font-[500] leading-[1] tracking-tighter-[-0.28px]">프로모션 할인</span>
+          <div class="flex flex-col items-start gap-[4px] self-stretch">
+            <span
+              class="text-[#0074F9] text-right font-pretendard text-[32px] font-semibold leading-[1] tracking-[-0.64px] self-stretch">
+              28%
+            </span>
+            <span
+              class="text-[#788192] text-right font-pretendard text-[12px] font-medium leading-[1] tracking-[-0.24px] self-stretch">
+              월 29,800원
+            </span>
+          </div>
+        </div>
+        <div data-aos="fade-up"
+          class="flex p-[20px_16px] flex-col items-start gap-[14px] flex-grow flex-shrink-0 basis-0 bg-[#FFF] rounded-[12px] border border-[#E6E8EB]">
+          <span class="text-[#788192] text-[14px] font-[500] leading-[1] tracking-tighter-[-0.28px]">제휴카드 할인</span>
+          <div class="flex flex-col items-start gap-[4px] self-stretch">
+            <span
+              class="text-[#0074F9] text-right font-pretendard text-[32px] font-semibold leading-[1] tracking-[-0.64px] self-stretch">58%</span>
+            <span
+              class="text-[#788192] text-right font-pretendard text-[12px] font-medium leading-[1] tracking-[-0.24px] self-stretch">월
+              17,700원</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="session3" class="w-full bg-[#3181F8]">
+      <div data-aos="fade-up"
+        class="flex p-[60px_16px] flex-col items-center gap-[24px] self-stretch rounded-t-[32px] rounded-b-0 bg-[#F0F7FE]">
+        <span class="text-[28px] font-[700] text-center leading-[1.5] tracking-tighter-[-0.56px] text-[#303E4A]">
+          약 20만원 상당의 혜택도,<br />같이 드릴게요
+        </span>
+        <div class="flex w-full items-start gap-[8px] self-start">
+          <div data-aos="fade-up"
+            class="flex p-[20px_12px_12px_12px] flex-col items-end justify-end gap-[16px] flex-grow flex-shrink-0 basis-0 bg-[#FFF] rounded-[12px] border border-[#E6E8EB]">
+            <div class="flex flex-col items-start gap-[8px] self-stretch">
+              <span class="text-[#788192] text-[14px] font-[500] leading-[1] tracking-tighter-[-0.28px]">혜택1</span>
+              <div class="">
+                <span
+                  class="text-[#303E4A] text-right font-pretendard text-[18px] font-bold leading-[1] tracking-[-0.36px]">조리수
+                  밸브</span><br />
+                <span
+                  class="text-[#0074F9] text-right font-pretendard text-[18px] font-bold leading-[1] tracking-[-0.36px]">무상
+                  제공</span>
+              </div>
+            </div>
+            <img class="max-w-[80px] max-h-[80px] p-[4px]" src="./assets/images/Faucet-Img.png" alt="Faucet-Img" />
+          </div>
+          <div data-aos="fade-up"
+            class="flex p-[20px_12px_12px_12px] flex-col items-end justify-end gap-[16px] flex-grow flex-shrink-0 basis-0 bg-[#FFF] rounded-[12px] border border-[#E6E8EB]">
+            <div class="flex flex-col items-start gap-[8px] self-stretch">
+              <span class="text-[#788192] text-[14px] font-[500] leading-[1] tracking-tighter-[-0.28px]">혜택2</span>
+              <div class="">
+                <span
+                  class="text-[#303E4A] text-right font-pretendard text-[18px] font-bold leading-[1] tracking-[-0.36px]">설치·등록비</span><br />
+                <span
+                  class="text-[#0074F9] text-right font-pretendard text-[18px] font-bold leading-[1] tracking-[-0.36px]">전액
+                  면제
+                </span>
+              </div>
+            </div>
+            <img class="max-w-[80px] max-h-[80px] p-[4px]" src="./assets/images/Money-Img.png" alt="Money-Img" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="session4" class="flex w-full w-min-[360px] p-[60px_20px] flex-col items-center gap-[24px] bg-[#FFF]">
+      <div class="flex flex-col items-center gap-[12px] self-stretch" data-aos="fade-up">
+        <span class="text-[#303E4A] text-center text-[28px] font-bold leading-[1.3] tracking-tighter-[-0.56px]">제품
+          소개</span>
+        <span class="text-[#788192] text-center text-[18px] font-normal leading-[1.3] tracking-tighter-[-0.9px]">ZERO
+          100S 끓인물 냉온정 얼음정수기</span>
+      </div>
+      <div class="flex w-full flex-col items-start self-stretch rounded-[16px] border border-[#E6E8EB]"
+        data-aos="fade-up">
+        <div class="flex w-full p-[35px_0px] items-center justify-center bg-[#EBF5FF] rounded-t-[16px]">
+          <img class="max-w-[126px] max-h-[170px]" src="./assets/images/Product-Image.png" alt="Product-Img" />
+        </div>
+        <div class="flex w-full p-[24px_20px] flex-col items-start gap-[20px] self-stretch">
+          <div class="flex w-full items-center gap-[8px] self-stretch" data-aos="fade-up">
+            <img class="w-[24px] h-[24px]" src="./assets/images/Check.svg" alt="Check-Icon" />
+            <span class="text-[#35424F] text-[18px] font-[500] leading-[1] tracking-tighter-[-0.36px]">직수로 만든
+              <span class="text-[#0074F9] font-[700]">신선한 얼음</span></span>
+          </div>
+          <div class="flex w-full items-center gap-[8px] self-stretch" data-aos="fade-up">
+            <img class="w-[24px] h-[24px]" src="./assets/images/Check.svg" alt="Check-Icon" />
+            <span class="text-[#35424F] text-[18px] font-[500] leading-[1] tracking-tighter-[-0.36px]">100°C까지 섬세한
+              <span class="text-[#0074F9] font-[700]">온도 조절</span></span>
+          </div>
+          <div class="flex w-full items-center gap-[8px] self-stretch" data-aos="fade-up">
+            <img class="w-[24px] h-[24px]" src="./assets/images/Check.svg" alt="Check-Icon" />
+            <span class="text-[#35424F] text-[18px] font-[500] leading-[1] tracking-tighter-[-0.36px]">필터 교체도
+              <span class="text-[#0074F9] font-[700]">10초면 끝</span></span>
+          </div>
+          <div class="flex w-full items-center gap-[8px] self-stretch" data-aos="fade-up">
+            <img class="w-[24px] h-[24px]" src="./assets/images/Check.svg" alt="Check-Icon" />
+            <span class="text-[#35424F] text-[18px] font-[500] leading-[1] tracking-tighter-[-0.36px]">안심 자동
+              <span class="text-[#0074F9] font-[700]">살균 시스템</span></span>
+          </div>
+          <div class="flex w-full items-center gap-[8px] self-stretch" data-aos="fade-up">
+            <img class="w-[24px] h-[24px]" src="./assets/images/Check.svg" alt="Check-Icon" />
+            <span class="text-[#35424F] text-[18px] font-[500] leading-[1] tracking-tighter-[-0.36px]">조리수 밸브로 물
+              <span class="text-[#0074F9] font-[700]">쓰임새 UP</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="session5"
+      class="flex w-full w-min-[360px] p-[60px_20px_0px_20px] flex-col items-center gap-[24px] bg-[#F9FAFB]">
+      <div class="flex flex-col items-start gap-[12px] self-stretch" data-aos="fade-up">
+        <span class="text-[#303E4A] text-[28px] font-[400] leading-[1.3] tracking-tighter-[-0.36px]">직수로 만든 <span
+            class="font-[700]">신선한 얼음</span></span>
+        <span class="text-[#788192] text-[18px] font-[400] leading-[1.5] tracking-tighter-[-0.9px]">12분 쾌속제빙과 웨이브
+          시스템으로<br />빠르고 깨끗한 얼음을 만들 수
+          있어요</span>
+      </div>
+      <div class="flex items-center justify-center w-full" data-aos="fade-up">
+        <img class="min-w-[328px] min-h-[240px] rounded-[12px]" src="./assets/images/Ice-Fresh-Direct-Water.png"
+          alt="Ice-Fresh-Direct-Water" />
+      </div>
+    </div>
+    <div id="session6"
+      class="flex w-full w-min-[360px] p-[60px_20px_0px_20px] flex-col items-center gap-[24px] bg-[#F9FAFB]">
+      <div class="flex flex-col items-start gap-[12px] self-stretch" data-aos="fade-up">
+        <span class="text-[#303E4A] text-[28px] font-[400] leading-[1.3] tracking-tighter-[-0.36px]">100°C까지 섬세한 <span
+            class="font-[700]">온도 조절</span></span>
+        <span class="text-[#788192] text-[18px] font-[400] leading-[1.5] tracking-tighter-[-0.9px]">100℃ 고온 추출로 깊은 맛은
+          살리고 <br />6단계 온도로 원하는 대로
+          조절하세요</span>
+      </div>
+      <div class="flex items-center justify-center w-full" data-aos="fade-up">
+        <img class="min-w-[328px] min-h-[240px] rounded-[12px]" src="./assets/images/Temp-Control-100c.png"
+          alt="Temp-Control-100c" />
+      </div>
+    </div>
+    <div id="session7"
+      class="flex w-full w-min-[360px] p-[60px_20px_0px_20px] flex-col items-center gap-[24px] bg-[#F9FAFB]">
+      <div class="flex flex-col items-start gap-[12px] self-stretch" data-aos="fade-up">
+        <span class="text-[#303E4A] text-[28px] font-[400] leading-[1.3] tracking-tighter-[-0.36px]">필터 교체도 <span
+            class="font-[700]">10초면 끝</span></span>
+        <span class="text-[#788192] text-[18px] font-[400] leading-[1.5] tracking-tighter-[-0.9px]">복잡한 건 없어요 <br />쉽고
+          빠르게 교체할 수 있어요</span>
+      </div>
+      <div class="flex items-center justify-center w-full" data-aos="fade-up">
+        <img class="min-w-[328px] min-h-[240px] rounded-[12px]" src="./assets/images/Filter-Change-10sec.png"
+          alt="Filter-Change-10sec" />
+      </div>
+    </div>
+    <div id="session8"
+      class="flex w-full w-min-[360px] p-[60px_20px_0px_20px] flex-col items-center gap-[24px] bg-[#F9FAFB]">
+      <div class="flex flex-col items-start gap-[12px] self-stretch" data-aos="fade-up">
+        <span class="text-[#303E4A] text-[28px] font-[400] leading-[1.3] tracking-tighter-[-0.36px]">안심 자동 <span
+            class="font-[700]">살균 시스템</span></span>
+        <span class="text-[#788192] text-[18px] font-[400] leading-[1.5] tracking-tighter-[-0.9px]">내부관부터 얼음까지 속까지
+          <br />깨끗하게 유지해줘요</span>
+      </div>
+      <div class="flex items-center justify-center w-full" data-aos="fade-up">
+        <img class="min-w-[328px] min-h-[240px] rounded-[12px]" src="./assets/images/Auto-Sterilization-System.png"
+          alt="Auto-Sterilization-System" />
+      </div>
+    </div>
+    <div id="session9" class="flex w-full w-min-[360px] p-[60px_20px] flex-col items-center gap-[24px] bg-[#F9FAFB]">
+      <div class="flex flex-col items-start gap-[12px] self-stretch" data-aos="fade-up">
+        <span class="text-[#303E4A] text-[28px] font-[400] leading-[1.3] tracking-tighter-[-0.36px]">조리수 밸브로 <span
+            class="font-[700]">물 쓰임새 UP</span></span>
+        <span class="text-[#788192] text-[18px] font-[400] leading-[1.5] tracking-tighter-[-0.9px]">과일 세척부터 요리까지,
+          <br />살균수로 안심하고 사용해보세요</span>
+      </div>
+      <div class="flex items-center justify-center w-full" data-aos="fade-up">
+        <img class="min-w-[328px] min-h-[240px] rounded-[12px]" src="./assets/images/Cooking-Valve-Water-Usage.png"
+          alt="Cooking-Valve-Water-Usage" />
+      </div>
+    </div>
+    <div id="session10" class="flex w-full w-min-[360px] p-[60px_16px_120px_16px] flex-col items-center bg-[#191F28]">
+      <div class="flex flex-col items-center justify-center gap-[12px] self-stretch" data-aos="fade-up">
+        <span class="text-[#FFF] text-[28px] font-[700] leading-[1.5] tracking-tighter-[-0.56px] text-center">지금 바로 프로모션
+          가격으로<br />
+          조리수 밸브 설치, 등록비까지<br />전액 면제받아보세요</span>
+      </div>
+    </div>
+    <footer class="w-full p-[60px_20px_200px_20px] flex flex-col items-start justify-start gap-[10px] bg-[#303E4A]">
+      <span class="text-[16px] font-[700] leading-normal text-[#FFF]">이벤트 유의사항</span>
+      <span class="text-[#98A1A8] text-[12px] font-[400] leading-[150%] tracking-[-0.48px]">
+        기존 렌탈료는 41,900원, 프로모션가로 29,800원까지 내려가요<br />
+        제휴카드 쓰면 17,700원까지 가능해요 (할인 내용은 상담 시
+        안내드려요)<br />
+        렌탈 설치하면 조리수 밸브 무상 설치해드려요 (설치비·등록비 전액 면제)
+      </span>
+    </footer>
+  </main>
+</body>
+
+</html>
